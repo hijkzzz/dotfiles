@@ -1,0 +1,5 @@
+[user]
+	name = hujian
+	email = hujia_n@foxmail.com
+[http "https://github.com"]
+	proxy = socks5://127.0.0.1:1080
