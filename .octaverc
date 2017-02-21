@@ -1,1 +1,1 @@
-setenv('GNUTERM', 'x11')
+setenv('GNUTERM','x11')
