@@ -91,13 +91,15 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
-export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar 
-export PATH=$JAVA_HOME/bin:$PATH   
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH
 
 export PATH="/usr/local/Cellar/php71/7.1.0_11/bin:$PATH"
 
 export PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+
+export PATH="/Users/hujian/anaconda2/bin:$PATH"
 
 alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 
