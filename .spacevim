@@ -7,10 +7,8 @@ function! Layers()
     Layer 'fzf'
     Layer 'unite'
     Layer 'better-defaults'
-
     Layer 'emoji'
     Layer 'goyo'
-
     Layer 'c-c++'
     Layer 'python'
     Layer 'go'
@@ -18,13 +16,9 @@ function! Layers()
     Layer 'html'
     Layer 'markdown'
     Layer 'graphviz'
-
     Layer 'airline'
-
     Layer 'text-align'
     Layer 'programming'
-
-    Layer 'ycmd'
     Layer 'syntax-checking'
 
 endfunction

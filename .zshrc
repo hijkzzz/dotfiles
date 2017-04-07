@@ -101,5 +101,4 @@ export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bott
 
 export PATH="/Users/hujian/anaconda2/bin:$PATH"
 
-alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
-
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
