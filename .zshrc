@@ -88,17 +88,17 @@ source $ZSH/oh-my-zsh.sh
 
 export GOPATH=/Users/hujian/GOPATH
 export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOBIN
+export PATH=$GOBIN:$PATH
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export PATH=$PATH:$JAVA_HOME/bin
+export PATH=$JAVA_HOME/bin:$PATH
 
-export PATH="$PATH:/usr/local/Cellar/php71/7.1.0_11/bin"
+export PATH="/usr/local/Cellar/php71/7.1.0_11/bin:$PATH"
 
-export PATH="$PATH:/usr/local/sbin"
+export PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 
-export PATH="$PATH:/Users/hujian/anaconda2/bin"
+export PATH="/Users/hujian/anaconda2/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
