@@ -99,6 +99,6 @@ export PATH="/usr/local/Cellar/php71/7.1.0_11/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 
-export PATH="/Users/hujian/anaconda2/bin:$PATH"
+export PATH="/Users/hujian/anaconda3/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
