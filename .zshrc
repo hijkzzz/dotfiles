@@ -94,7 +94,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Hom
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$JAVA_HOME/bin:$PATH
 
-export PATH="/usr/local/Cellar/php71/7.1.0_11/bin:$PATH"
+export SCALA_HOME="/Users/hujian/scala-2.12.2"
+export PATH=$PATH:$SCALA_HOME/bin
 
 export PATH="/usr/local/sbin:$PATH"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
